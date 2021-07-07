@@ -34,7 +34,8 @@ a {
 	border-radius: 50px;
     margin: 11px;
     position: relative;
-    z-index: 1;
+    z-index: 1; 
+	text-align: center;
 }
 a::before {
 	content: "";
@@ -47,6 +48,7 @@ a::before {
     transition: .5s;
     border-radius: 50px;
     z-index: -1;
+	text-align: center;
 
 }
 a:hover::before{
@@ -228,6 +230,7 @@ a {
     margin: 11px;
     position: relative;
     z-index: 1;
+	text-align : center;
 }
 a::before {
 	content: "";
@@ -240,6 +243,7 @@ a::before {
     transition: .5s;
     border-radius: 50px;
     z-index: -1;
+	text-align: center;
 
 }
 a:hover::before{
